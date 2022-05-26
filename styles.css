@@ -1,0 +1,73 @@
+body {
+    background-color: #CBD5F0;
+    font-family: 'Montserrat', sans-serif;
+    color: #194F92;
+    }
+.name {
+    font-size: 50px;
+}    
+#header {
+    background-image: url(images/my-header.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 1em;
+    margin: 1em;
+}
+
+.city {
+    padding: 1em;
+    margin: 1em;
+    background-color: #E5C0C8;
+}
+.languages {
+    background-color: #909E84;
+    padding: 1em;
+    margin: 1em;
+}
+/* table {
+    width: 600px; 
+} */
+th {
+    text-align: left;
+}
+
+table, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    
+}
+td, th {
+    padding: 10px;
+}
+.education {
+    background-color: #E5C0C8;
+    padding: 1em;
+    margin: 1em;
+}
+.box {
+    border: 3px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+}
+
+.sub {
+    background-color: #9AA4EC
+}
+
+@media (min-width: 900px) {
+    .sl {
+        display: flex;
+    }
+
+}
+@media (min-width: 900px) {
+    #header {
+        display: flex;
+    }
+    .fav {
+        display: flex;
+    }
+   
+}
