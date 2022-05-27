@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #1A1A1D;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .flexbox {
+            background-color: #950740;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .simple {
+            background-color: #950740;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .para {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .box {
+            border: 0.5px solid;
+            border-radius: 0.8em;
+            color: beige;
+            margin: 2em;
+            padding: 2em;
+
+        }
+
+        .head {
+            text-align: center;
+            font-size: 80px;
+        }
+
+        .text {
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
 </head>
+
 <body>
+    <h1 class="head">Hello There!</h1>
+    <p class="para">
+        Welcome to my basic website, please click "This is my responsive web page using Flexbox" to view my personal web
+        page created by using flexbox css.
+        If you want to view my personal web page created by using simple-grid framework, please click "This is my responsive web page using Simple-grid".
+    </p>
+    <div class="flexbox box">
+        <a href="my-webpage.html" class="text">This is my responsive web page using Flexbox.</a>
+    </div>
+    <div class="simple box">
+        <a href="my-webpage-grid.html" class="text">This is my responsive web page using Simple-grid.</a>
+    </div>
+
+    <p class="para">
+        THANK YOU FOR VISITING MY WEBSITE.
+    </p>
+
     
 </body>
+
 </html>
