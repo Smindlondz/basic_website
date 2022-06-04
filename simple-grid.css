@@ -263,3 +263,23 @@ table, td, th {
 td, th {
   padding: 10px;
 }
+.bs {
+   background-position: 100%;
+   background-size: cover;
+   background-repeat:no-repeat;
+   padding: 1em;
+   margin: 1em;
+   padding-right: 20em;
+  }
+.hd {
+  background-image: url(images/my-header.jpg);
+}
+.ct {
+  background-color: #E5C0C8;
+}
+.ln {
+  background-color: #909E84;
+}
+.sb {
+  background-color: #E5C0C8;
+}
