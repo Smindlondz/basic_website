@@ -301,8 +301,11 @@ td, th {
 }
 .sub {
   background-color: #9AA4EC;
-  
-  }
+
+}
+.edu {
+  background-color: #E5C0C8;
+}
   img {
     width: 100%;
   }
